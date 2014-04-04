@@ -1,0 +1,10 @@
+-- Time log
+-- Next object
+-- Alarm or set deadline
+-- Add to schedule
+-- * Put in mobile
+-- Separate out: done-goals-dynamic todo and goals
+-- * UI
+-- Ability to edit file
+
+-- List the different things being done. Make it interactive.
