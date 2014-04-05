@@ -1,4 +1,4 @@
--- Time log
+-- Ability to read the file
 -- Next object
 -- Alarm or set deadline
 -- Add to schedule
