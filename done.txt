@@ -1,1 +1,3 @@
--- Time log
+Added open file functionality.
+just add new line to the tracker.
+Time log

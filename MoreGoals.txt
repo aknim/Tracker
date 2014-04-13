@@ -1,10 +1,17 @@
--- Ability to read the file
+-- Functionality to hint the file names
+-- Adding tags "@". Also making shortcuts or links to full tags.
+
+-- Added linking to init.sh. Need to verify its working.
+-- Command arguments to checkpoint, read file, list files, list latest, give suggestions
+-- Give last done
+-- Resolve into done, to be done, resolved, etc
+
+
 -- Next object
 -- Alarm or set deadline
 -- Add to schedule
 -- * Put in mobile
 -- Separate out: done-goals-dynamic todo and goals
 -- * UI
--- Ability to edit file
 
 -- List the different things being done. Make it interactive.
