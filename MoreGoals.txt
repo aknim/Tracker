@@ -1,4 +1,3 @@
--- Functionality to hint the file names
 -- Adding tags "@". Also making shortcuts or links to full tags.
 
 -- Added linking to init.sh. Need to verify its working.

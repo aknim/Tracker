@@ -1,0 +1,25 @@
+_t() 
+{
+    dir="/etc/tracker";
+    dir_len=${#dir};
+    all_names="";
+    for a in ${dir}/*
+    do
+    edited=${a:${dir_len}+1:-4};
+    all_names="--${edited} ${all_names}";
+    done;
+    #echo "${all_names}";
+    x=`cat /home/akshaya/Tracker/test`;
+    #echo $x;
+    local cur prev opts
+    COMPREPLY=()
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    prev="${COMP_WORDS[COMP_CWORD-1]}"
+    opts="${all_names}"; #"${x}"; #"--help --verbose --version"
+
+    if [[ ${cur} == -* ]] ; then
+        COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
+        return 0
+    fi
+}
+complete -F _t t
