@@ -3,10 +3,10 @@ dir="/etc/tracker";
 name=$1; name=${name:2};
 file="${dir}/${name}.log";
 
-if [ $# -gt 1 ]
+if [ $# -eq 2 ]
 then
  arg=$2;
- if [ $arg == "-o" ]
+ if [ "${arg}" == "-o" ]
  then
  vim ${file};
  exit 0;
